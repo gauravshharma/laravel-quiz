@@ -7,11 +7,10 @@ Clone Project
 Navigate to project directory and open terminal to install packages
 `composer install`
 
-Update DB settings in `.env.example` file found in the root and rename to `.env`
+Update DB settings in `.env.example` file found in root folder and rename to `.env`
 
-Migrate DB
+Run migrations
 `php artisan migrate`
 
-Start the development server 🚀
-`php artisan serve`
+Start the development server `php artisan serve`
 
